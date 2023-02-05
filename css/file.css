@@ -517,20 +517,6 @@ header nav .form i {
   padding-bottom: 100px;
 }
 
-.portfolio ul {
-  display: flex;
-  justify-content: center;
-}
-
-.portfolio ul li {
-  padding: 8px;
-}
-
-.portfolio ul li:first-child {
-  background-color: var(--mainColor);
-  color: white;
-}
-
 .portfolio .img-box {
   display: flex;
   flex-wrap: wrap;
@@ -826,19 +812,6 @@ header nav .form i {
   display: flex;
   margin: 40px auto;
   justify-content: center;
-}
-
-.skills .testimonials .bullets li {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  border: 1px solid #ddddd9;
-  margin-right: 10px;
-}
-
-.skills .testimonials .bullets .active {
-  background-color: var(--mainColor);
-  border: none;
 }
 
 .skills .skill {
@@ -1277,9 +1250,10 @@ header nav .form i {
   margin: 10px 0 50px;
 }
 
-.footer .icons i {
+.footer .icons a {
   padding: 12px;
   cursor: pointer;
+  color: white;
 }
 
 .footer p {
