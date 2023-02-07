@@ -134,7 +134,6 @@ butt.addEventListener("click", () => {
 // Start Pricing
 let cont = document.querySelector(".contact button");
 let inp = document.querySelector("#contact");
-console.log(inp);
 cont.addEventListener("click", () => {
   inp.focus();
 });

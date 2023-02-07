@@ -78,7 +78,7 @@ ul {
 .scroll {
   height: 10px;
   position: fixed;
-  background-color: var(--mainColor);
+  background-color: var(--mainColor, deepskyblue);
   z-index: 2;
 }
 
@@ -87,7 +87,7 @@ ul {
   height: 40px;
   border-radius: 20%;
   cursor: pointer;
-  background-color: var(--mainColor);
+  background-color: var(--mainColor, deepskyblue);
   position: fixed;
   z-index: 3;
   border: none;
@@ -390,7 +390,7 @@ header nav .form i {
 }
 
 .services .container .box .div-box .text-div h3 {
-  color: var(--mainColor);
+  color: var(--mainColor, deepskyblue);
   margin-bottom: 30px;
 }
 
@@ -559,7 +559,7 @@ header nav .form i {
 .portfolio .img-box .img .caption h3 {
   font-weight: normal;
   margin-top: 5px;
-  color: var(--mainColor);
+  color: var(--mainColor, deepskyblue);
 }
 
 .portfolio .button {
@@ -568,7 +568,7 @@ header nav .form i {
 }
 
 .portfolio .button button {
-  background-color: var(--mainColor);
+  background-color: var(--mainColor, deepskyblue);
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -931,8 +931,8 @@ header nav .form i {
 .pricing .box {
   background-color: #dddddd24;
   text-align: center;
-  border-top: 1px solid var(--mainColor);
-  border-bottom: 1px solid var(--mainColor);
+  border-top: 1px solid var(--mainColor, deepskyblue);
+  border-bottom: 1px solid var(--mainColor, deepskyblue);
   margin: 10px;
   flex: 47%;
 }
@@ -973,7 +973,7 @@ header nav .form i {
 .pricing .box .text p:not(:last-child)::after {
   content: "";
   position: absolute;
-  border-bottom: 1px solid var(--mainColor);
+  border-bottom: 1px solid var(--mainColor, deepskyblue);
   width: 48%;
   bottom: 0;
   left: 50%;
@@ -981,7 +981,7 @@ header nav .form i {
 }
 
 .pricing .box .text p:last-child {
-  border-bottom: 1px solid var(--mainColor);
+  border-bottom: 1px solid var(--mainColor, deepskyblue);
 }
 
 .pricing .box .foot {
@@ -990,7 +990,7 @@ header nav .form i {
 
 .pricing .box a {
   padding: 25px;
-  border: 1px solid var(--mainColor);
+  border: 1px solid var(--mainColor, deepskyblue);
   margin-top: 20px;
   width: 120px;
   text-decoration: none;
@@ -1007,11 +1007,11 @@ header nav .form i {
 
 .pricing .contact button {
   padding: 10px 25px;
-  border: 1px solid var(--mainColor);
+  border: 1px solid var(--mainColor, deepskyblue);
   margin-top: 20px;
   text-decoration: none;
   color: white;
-  background-color: var(--mainColor);
+  background-color: var(--mainColor, deepskyblue);
   cursor: pointer;
   border-radius: 5px;
 }
@@ -1066,7 +1066,7 @@ header nav .form i {
   border-right: none;
   background: none;
   padding: 20px 20px 20px 60px;
-  caret-color: var(--main-color);
+  caret-color: var(--mainColor, deepskyblue);
   width: calc(100% - 130px);
 }
 
@@ -1087,7 +1087,7 @@ header nav .form i {
 
 .subscribe form input[type="submit"] {
   width: 130px;
-  background-color: var(--mainColor);
+  background-color: var(--mainColor, deepskyblue);
   padding: 20px;
   color: white;
   text-transform: uppercase;
@@ -1153,7 +1153,7 @@ header nav .form i {
 
 .contact .content form input[type="submit"] {
   color: white;
-  background-color: var(--mainColor);
+  background-color: var(--mainColor, deepskyblue);
   border: none;
   padding: 20px;
   text-transform: uppercase;
@@ -1246,7 +1246,7 @@ header nav .form i {
 }
 
 .footer span {
-  color: var(--mainColor);
+  color: var(--mainColor, deepskyblue);
   font-weight: bold;
 }
 /* End footer */
