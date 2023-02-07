@@ -69,7 +69,7 @@ ul {
 /* Start variables */
 
 :root {
-  --mainColor: deepskyblue;
+  --mainColor: var(--mainColor, deepskyblue);
 }
 
 /* End variables */
@@ -78,7 +78,7 @@ ul {
 .scroll {
   height: 10px;
   position: fixed;
-  background-color: deepskyblue;
+  background-color: var(--mainColor);
   z-index: 2;
 }
 
@@ -87,7 +87,7 @@ ul {
   height: 40px;
   border-radius: 20%;
   cursor: pointer;
-  background-color: deepskyblue;
+  background-color: var(--mainColor);
   position: fixed;
   z-index: 3;
   border: none;
@@ -183,21 +183,6 @@ header nav ul li:first-child a {
   color: var(--mainColor, deepskyblue);
   border-bottom: 1px solid var(--mainColor, deepskyblue);
 }
-/* 
-nav ul li a:hover,
-nav ul li:first-child a {
-    color: var(--mainColor,deepskyblue);
-} */
-
-/* ul li a::before {
-    content: "";
-    position: absolute;
-    border-bottom: 1px solid var(--mainColor,deepskyblue);
-    bottom: -16px;
-    left:1px;
-    width: 100%;
-    display: none;
-} */
 
 header nav .form {
   width: 40px;
@@ -345,7 +330,7 @@ header nav .form i {
 
 .active,
 .dot:hover {
-  background-color: deepskyblue;
+  background-color: var(--mainColor, deepskyblue);
 }
 
 /* End Landing */
@@ -854,7 +839,7 @@ header nav .form i {
   position: relative;
   left: 0;
   height: 100%;
-  background-color: deepskyblue;
+  background-color: var(--mainColor, deepskyblue);
 }
 
 .skills .skill .content .box-content .box div::before {
@@ -966,7 +951,7 @@ header nav .form i {
 }
 
 .pricing .content {
-  border-bottom: 1px solid deepskyblue;
+  border-bottom: 1px solid var(--mainColor, deepskyblue);
   padding: 40px;
 }
 .pricing .content h3 {
@@ -1032,7 +1017,7 @@ header nav .form i {
 }
 
 #subsc:focus {
-  color: deepskyblue;
+  color: var(--mainColor, deepskyblue);
 }
 
 /* End pricing */
